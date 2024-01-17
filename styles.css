@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: #004365;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 60px;
+  height: 100%;
+  background-color: white;
+  padding-top: 20px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px; 
+}
+
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 45px; 
+  height: 30px;
+}
+
+.sidebar img {
+  width: 40px;
+  height: 40px;
+  display: block;
+  margin-bottom: 45px; 
+}
+
+.content {
+  margin-left: 60px;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+  color: #3498db;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h1 {
+  color: black;
+}
+#accueil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.presentation {
+  display: flex;
+  align-items: center;
+}
+
+.text-box {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  color: #333;
+}
+
+.presentation img {
+  width: 150px; /* Ajustez la largeur de l'image selon vos besoins */
+  height: auto;
+  margin-right: 20px; /* Espace entre l'image et le texte */
+}
+.cv-box {
+  background-color: #3498db;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.cv-box:hover {
+  background-color: #2980b9;
+}
+#parcours {
+  margin-top: 30px;
+}
+
+.stage {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.stage h2 {
+  color: #3498db;
+}
