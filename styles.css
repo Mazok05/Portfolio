@@ -131,3 +131,10 @@ h1 {
 .stage h2 {
   color: #3498db;
 }
+.logo img {
+  width: 800px; /* Ajustez la taille selon vos préférences */
+  height: auto; /* Permet de conserver les proportions de l'image */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
