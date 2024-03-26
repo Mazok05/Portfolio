@@ -170,6 +170,9 @@ html {
   border-radius: 15px; /* Bords arrondis */
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Légère ombre */
   text-align: center; /* Centrage du contenu */
+  width: 44%; /* Largeur de la section */
+  margin: 0 auto; /* Centrage horizontal */
+
 }
 
 .atelier-table {
